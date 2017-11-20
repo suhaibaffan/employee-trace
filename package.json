@@ -1,0 +1,28 @@
+{
+  "name": "employee-trace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "moment": "^2.19.2",
+    "mongoose": "^4.13.4",
+    "promise": "^8.0.1",
+    "q": "^1.5.1",
+    "socket.io": "^2.0.4",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  }
+}
